@@ -1,0 +1,89 @@
+html {
+    font-family: "Source Code Pro", monospace;
+    font-optical-sizing: auto;
+}
+
+header {
+    border-bottom: 1px solid #032F6D;
+    background-color: #042451;
+    color: #DAB08D;
+    position: fixed;
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding-bottom: 9px;
+    padding-top: 7px;
+    top: 0px;
+}
+
+body {
+    background-color: #042451;
+    color: #DAB08D;
+}
+
+h1 {
+    margin: auto;
+    text-align: center;
+}
+
+.spacer
+{
+    width: 100%;
+    height: 50px;
+}
+
+.linkContainer {
+    display: block;
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+.link {
+    display: block;
+    border: 1px solid black;
+    padding: 4px;
+    background-color: #225e97;
+    color: #DAB08D;
+    text-decoration: none;
+    text-align: center;
+}
+
+.menuIcon {
+    width: 30px;
+    margin-top: 3px;
+}
+
+.menuActivate {
+    float: right;
+}
+
+#menuContainer {
+    display: block;
+    position:fixed;
+    left: -200px;
+    transition: all 0.5s ease-in-out;
+}
+
+.whatIcons {
+    width: 20px;
+}
+
+.dropdownButton {
+    float: left;
+    background-color: #042451;
+}
+
+.whatText {
+    float: left;
+    padding-left: 3px;
+}
+
+.whatIDo {
+    display:grid;
+}
+
+h2 {
+    text-align: center;
+    color: #E07879;
+}
